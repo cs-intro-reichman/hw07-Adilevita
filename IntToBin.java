@@ -12,6 +12,6 @@ public class IntToBin {
             return "" + x; 
         }
         int t = x % 2;
-        return t + toBinary (x/2);
-    }    
- }
+        return toBinary(x / 2) + t;
+    }
+}
